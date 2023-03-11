@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap%27');
+
+/* common css start */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+img {
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style: none;
+}
+input, button {
+    box-shadow: none !important;
+    outline: none !important;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+.col{
+    margin: 0px;
+    padding: 0px;
+}
+/* common css end */
+
+.logo_image{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 650px;
+    top: 5px;
+}
+
+.main_image{
+    background-image: url('https://img.freepik.com/premium-photo/tourist-sitting-snowy-mountain-top-enjoying-view_127089-7376.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-item{
+    padding-inline: 20px;
+    color: white;
+}
+
+.nav-item:hover{
+    background-color: rgba(0, 0, 0, 0.51);
+    border-radius: 9px;
+}
+.search{
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+}
+.page_navbar{
+    margin-top: 80px;
+}
+.sub_content1{
+    background-color: rgba(152, 101, 6, 0.536);
+    color: white;
+    text-align: center;
+    padding: 25px 30px;
+   margin-top: 300px;
+}
+.logo{
+    width: 400px;
+    height: 400px;
+    margin-top: -100px;
+}
+.pg1{
+    margin: 15px 0px;
+    font-size: 16px;
+}
+.icon{
+    margin-right: -22px;
+    z-index: 2;
+    color: orange;
+    font-weight: 400;
+}
+.sub_content2{
+    color: white;
+    text-align: center;
+}
+.all_name{
+    margin-top: -150px;
+}
+.pg2{
+   font-size: 16px;
+   margin-bottom: 40px;
+   padding: 0px 100px;
+}
+.pg3{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    color: white;
+    padding: 0px 30px;
+}
+.pg4{
+    font-size: 110px;
+    font-family: 'Roboto Slab', serif;
+}
+.pg5{
+    font-size: 80px;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Cookie', 'cursive';
+    margin-top: -40px;
+}
+
+/* section css start */
+.section_1{
+    background-color: black;
+    height: 130px;
+}
+.section_2{
+    background-color:rgb(234, 166, 40);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main_name{
+    font-size: 50px;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial; */
+}
+.main_data{
+    color: white;
+    /* padding: 20px 25px 20px 25px; */
+    background-color: black;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 14px;
+}
+ 
+/* section part 3 */
+.section_3{
+    background-image: url('../images/photo-1.png');
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+.pg6{
+    font-size: 40px;
+    text-align: center;
+}
+.sub_content3{
+    padding: 0px 60px;
+}
+.sub_content4{
+    padding: 20px 50px;
+}
+.pg7{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    color: rgb(2, 2, 2);
+    padding: 0px 20px;
+}
+.data_1{
+    margin-bottom: 20px;
+}
+.learn_more{
+    display: flex;
+    justify-content: center;
+}
